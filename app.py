@@ -85,7 +85,7 @@ SCENARIO_TOPICS = [
 
 # --- 2. Helper Functions ---
 
-@st.cache_data
+#@st.cache_data
 def load_prompt(filename: str) -> str:
     """
     Reads a text file from the 'prompts' directory and returns its content.
